@@ -2,3 +2,4 @@ Flask==1.1.1
 Flask-SQLAlchemy==2.4.0
 google-api-python-client==1.7.9
 SQLAlchemy==1.2.12
+psycopg2

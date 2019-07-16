@@ -3,7 +3,7 @@ import string
 postgres_config = {
     'username': 'dawidbodych',
     'password': 'test123',
-    'host': 'localhost',
+    'host': '0.0.0.0',
     'database': 'websearch_app'
 }
 
