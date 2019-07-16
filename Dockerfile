@@ -17,4 +17,3 @@ RUN pip3 --no-cache-dir install -r requirements.txt
 ENV FLASK_ENV="docker"
 
 EXPOSE 5000
-EXPOSE 5432

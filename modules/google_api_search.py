@@ -4,9 +4,6 @@ from config import google_config
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError as GoogleHttpError
 
-my_api_key = "AIzaSyAEpTmyAZPDK__CfUma0H33mMzBfTMdYtQ"
-my_cse_id = "012435862673425950212:sy5dawx25b8"
-
 
 def google_search(search_term, **kwargs):
     service = build("customsearch", "v1", developerKey=google_config['api_key'])
